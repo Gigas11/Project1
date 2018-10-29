@@ -1,20 +1,45 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<header>
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+
     <title> Contact Me!</title>
-</header>
+<style>
+    body{
+        background-image: url(img/penandcontact_1.jpg);
+        background-repeat: no-repeat;
+        background-size: 900px;
+        
+    }
+    
+    </style>
+</head>
+
 <body>
-    <p style=align-content:center>
-    <img src="img/logo.jpg">
-    </p>
-<h1>Contact Me</h1>
-<form>
-    <label>First Name<br>
-    <input type="text" name=firstName required>
+      <div id=logo>
+            <img src="img/logo_1.png">
+        </div>
+     <nav>
+        <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+
+    </nav>
+    <h1>Contact Me</h1>
+    <form>
+        <label>First Name<br>
+            <input type="text" name=firstName required>
         </label><br>
-    <label>Last Name<br> <input type="text" name=LastName required></label><br>
-    <label>Email<br>
-        <input type="email" name=eml required></label>
-</form>
-    </body>
+        <label>Last Name<br> <input type="text" name=LastName required></label><br>
+        <label>Email<br>
+            <input type="email" name=eml required></label>
+        <br>
+        <br>
+        <input type="submit">
+    </form>
+</body>
+
 </html>
